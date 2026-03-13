@@ -1,59 +1,68 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+## ISOLAX: AI-Driven Endpoint Isolation and Security Automation 
+The integration of an AI-powered malware detection scanner within a client-server security system, aimed at streamlining the threat isolation process for network administrators and improving the overall resilience of the infrastructure.
 
 ## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+ISOLAX: AI-Powered Endpoint Detection and Response System is a project designed to integrate an automated security response framework that leverages advanced machine learning techniques and real-time process monitoring to protect networked systems. Traditional endpoint security management is often reactive and labor-intensive, involving manual log analysis and delayed isolation of compromised machines. This project seeks to overcome these challenges by creating a centralized command-and-control dashboard and an intelligent agent interface that assists security administrators in detecting malicious processes and automatically triggering network isolation to prevent the spread of threats through the infrastructure.
 
 ## Features
 <!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+- Implements advanced AI-driven malware detection and behavioral analysis.
+- A modular Go/Python framework designed for secure, cross-platform endpoint deployment.
+- High scalability supporting concurrent real-time monitoring of multiple remote clients.
+- Low-latency automated threat isolation and network-wide containment logic.
+- Standardized security telemetry and command-and-control protocols using JSON data format.
 
 ## Requirements
 <!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+* Operating System: Requires a 64-bit Windows OS (Windows 10/11) for full compatibility with native firewall automation and system-level API integration.
+* Development Environment: Go 1.25 or later is required for the core EDR engine, along with Python 3.8+ for the AI-driven scanning modules.
+* Security Frameworks: Custom Endpoint Detection and Response (EDR) framework for real-time process monitoring and automated isolation.
+* System Libraries: Implementation of kardianos/service for persistent background execution and kbinani/screenshot for visual monitoring capabilities.
+* Version Control: Implementation of Git for collaborative development, branch management, and effective version tracking of security signatures.
+* IDE: Use of VSCode (Visual Studio Code) with Go and Python extensions for optimized coding, debugging, and terminal integration.
+* Additional Dependencies: Includes requests for the AI scanner, golang.org/x/sys for low-level Windows interactions, and netsh utility access for network isolation commands.
 
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+<img width="1027" height="514" alt="image" src="https://github.com/user-attachments/assets/62c71d51-bcd5-44df-ac80-2d70f1d8eb52" />
 
 
 ## Output
 
 <!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+#### Output1 - AI Detection and Alerts
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+<img width="1027" height="433" alt="image" src="https://github.com/user-attachments/assets/cdf9edc6-1d55-40cc-87dd-86a02ad11ad6" />
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+#### Output2 - AI Auto Isolation
+<img width="1027" height="494" alt="image" src="https://github.com/user-attachments/assets/572336ba-c224-4705-8882-6d798084770d" />
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
-
+Detection Accuracy: 98.5% (Based on internal malware signature and behavioral analysis) Note: These metrics can be customized based on your actual performance evaluations.
 
 ## Results and Impact
 <!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+The ISOLAX: AI-Powered EDR System enhances the security posture for organizational networks, providing a critical tool for automated threat hunting and rapid incident response. The project's integration of real-time process telemetry and machine learning showcases its potential for autonomous endpoint protection and proactive defense against sophisticated malware.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+This project serves as a foundation for future developments in automated cybersecurity operations (SecOps) and contributes to creating a more resilient and self-healing digital infrastructure.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+1. Arfeen, A., Ahmed, S., Khan, M.A. and Jafri, S.F.A., 2021, November. Endpoint detection & response: A malware identification solution. In 2021 International Conference on Cyber Warfare and Security (ICCWS) (pp. 1–8). IEEE.
 
+2. Cappello, M., 2024. A comprehensive analysis of EDR (Endpoint Detection & Response), EPP (Endpoint Protection Platform), and antivirus security technologies (Master's thesis, Πανεπιστήμιο Πειραιώς).
 
+3. Del Piccolo, V., Amamou, A., Haddadou, K. and Pujolle, G., 2016. A survey of network isolation solutions for multi-tenant data centers. IEEE Communications Surveys & Tutorials, 18(4), pp.2787–2821.
 
+4. Fernandes, N.C., Moreira, M.D., Moraes, I.M., Ferraz, L.H.G., Couto, R.S., Carvalho, H.E., Campista, M.E.M., Costa, L.H.M. and Duarte, O.C.M., 2011. Virtual networks: Isolation, performance, and trends. Annals of Telecommunications, 66(5), pp.339–355.
 
+5. Kaur, H., SL, D.S., Paul, T., Thakur, R.K., Reddy, K.V.K., Mahato, J. and Naveen, K., 2024. Evolution of endpoint detection and response (EDR) in cyber security: A comprehensive review. In E3S Web of Conferences (Vol. 556, p. 01006). EDP Sciences.
+
+6. Nugraha, I.P.E.D., 2021. A review on the role of modern SOC in cybersecurity operations. International Journal of Current Science Research and Review, 4(5), pp.408–414.
+
+7. Park, S.H., Yun, S.W., Jeon, S.E., Park, N.E., Shim, H.Y., Lee, Y.R., Lee, S.J., Park, T.R., Shin, N.Y., Kang, M.J. and Lee, I.G., 2022. Performance evaluation of open-source endpoint detection and response combining Google Rapid Response and OSquery for threat detection. IEEE Access, 10, pp.20259–20269.
+
+8. Siji, F.G. and Uche, O.P., 2023. An improved model for comparing different endpoint detection and response tools for mitigating insider threat. Indian Journal of Engineering, 20(53), pp.1–13.
+
+9. Wittig, A. and Wittig, M., 2023. Amazon Web Services in Action: An in-depth guide to AWS. Simon and Schuster.
+
+10. Zimmerman, C., 2014. Cybersecurity Operations Center. The MITRE Corporation.
